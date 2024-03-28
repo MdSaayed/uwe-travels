@@ -22,7 +22,7 @@ const Navbar = () => {
                   </li>
       
                   <li>
-                    <Link className="text-gray-500 transition hover:text-gray-500/75" to="/"> Distination </Link>
+                    <Link className="text-gray-500 transition hover:text-gray-500/75" to="/destinaion"> Distination </Link>
                   </li>
       
                   <li>
