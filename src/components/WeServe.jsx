@@ -27,7 +27,7 @@ const WeServe = () => {
               href="#"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3">
-                
+
               </span>
 
               <h2 className="mt-2 font-bold">Lot Of Choices</h2>
@@ -42,7 +42,7 @@ const WeServe = () => {
               href="#"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3">
-                
+
               </span>
 
               <h2 className="mt-2 font-bold">Best Tour Guide</h2>
@@ -57,7 +57,7 @@ const WeServe = () => {
               href="#"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3">
-                
+
               </span>
 
               <h2 className="mt-2 font-bold">Easy Booking</h2>
@@ -72,7 +72,7 @@ const WeServe = () => {
               href="#"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3">
-                
+
               </span>
 
               <h2 className="mt-2 font-bold">Accountant</h2>
@@ -87,7 +87,7 @@ const WeServe = () => {
               href="#"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3">
-                
+
               </span>
 
               <h2 className="mt-2 font-bold">Accountant</h2>
@@ -102,7 +102,7 @@ const WeServe = () => {
               href="#"
             >
               <span className="inline-block rounded-lg bg-gray-50 p-3">
-                
+
               </span>
 
               <h2 className="mt-2 font-bold">Accountant</h2>

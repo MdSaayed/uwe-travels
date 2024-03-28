@@ -9,7 +9,7 @@ const Banner = () => {
             ></div>
 
             <div
-                className="relative flex mx-auto max-w-screen-xl px-4 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+                className="relative flex flex-col sm:flex-row mx-auto max-w-screen-xl px-4 sm:px-6 lg:h-screen lg:items-center lg:px-8"
             >
                 <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
                     <h1 className="text-3xl font-extrabold sm:text-5xl">
