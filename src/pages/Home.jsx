@@ -1,4 +1,4 @@
-import { Banner, Destination, Gallery, WeServe } from "../components"
+import { Banner, Destination, Gallery, WeServe } from "../components";
 
 const Home = () => {
     return (

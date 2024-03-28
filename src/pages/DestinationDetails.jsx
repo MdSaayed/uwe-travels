@@ -1,0 +1,421 @@
+import React from 'react'
+
+const DestinationDetails = () => {
+  return (
+    <div class="tour container">
+      <div class="tour-head">
+        <div class="tour-head-left">
+          <div class="tour-title">
+            Best of Turkey: Istanbul, Fethiye, Cappadocia
+          </div>
+          <div class="tour-overview">
+            <div class="tour-overview-item">
+              Start and end in <span>Istanbul</span>
+            </div>
+            <div class="tour-overview-item"><span>9</span> days</div>
+            <div class="tour-overview-item">
+              <span class="material-icons-outlined"> star </span>
+              <span>4.7</span> (55 reviews)
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- tour head --> */}
+
+      <div class="tour-wrapper">
+        <div class="tour-content">
+          <div class="tour-hero">
+            <div class="tour-image"></div>
+          </div>
+          {/* <!-- tour hero --> */}
+
+          <div class="tour-content-block">
+            <div class="tour-description">
+              Discover the ancient wonders of Turkey in our 12 day Best of
+              Turkey by Land tour. Embrace the culture and history of Istanbul &
+              Gallipoli, ride through the magnificent Aegean Coast and in-land
+              wonders of Anatolia. Start your tour exploring the magnificent
+              museums and mosques of Istanbul and then travel south along the
+              Aegean Coast, capturing wonderful visions of ancient cities.
+              After, we'll head inland to experience the incredible natural
+              marvels of fairy chimney formations in Cappadocia...
+            </div>
+          </div>
+          {/* <!-- block --> */}
+
+          <div class="tour-content-block">
+            <div class="tour-content-title">Places You’ll See</div>
+            <div class="tour-places">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-istanbul.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Istanbul</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-gallipoli.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Gallipoli</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-troy.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Troy</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-kusadasi.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Kusadasi</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-fethiye.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Fethiye</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-oludeniz.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Oludeniz</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-dalyan.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Dalyan</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-image">
+                      <img src="dist/images/tour-cappadocia.jpeg" alt="image" />
+                    </div>
+                    <div class="swiper-title">Cappadocia</div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- block --> */}
+
+          <div class="tour-content-block">
+            <div class="tour-content-title mb-8">Itinerary</div>
+            <div class="tour-itinerary">
+              <div class="accordion">
+                <div class="accordion-panel accordion-introduction active">
+                  <div class="accordion-trigger">Introduction</div>
+                  <div class="accordion-content">
+                    <p>
+                      Start and end in Istanbul! With the Explorer tour Best of
+                      Turkey by Land, you have a 9 days tour package taking you
+                      through Istanbul, Turkey and 11 other destinations in
+                      Turkey. Best of Turkey by Land includes accommodation in a
+                      hotel as well as an expert guide, meals, transport and
+                      more.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel accordion-start">
+                  <div class="accordion-trigger">
+                    <span>Day 1:</span> Istanbul
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Istanbul, formerly known as Constantinople, is the largest
+                      city in Turkey, serving as the country's economic,
+                      cultural and historic hub. The city straddles the Bosporus
+                      strait, lying in both Europe and Asia, and has a
+                      population of over 15 million residents, comprising 19% of
+                      the population of Turkey. Istanbul is the most populous
+                      European city, and the world's 15th-largest city.
+                    </p>
+                    <p>
+                      The city was founded as Byzantium (Byzantion) in the 7th
+                      century BC by Greek settlers from Megara. In 330 CE, the
+                      Roman emperor Constantine the Great made it his imperial
+                      capital, renaming it first as New Rome (Nova Roma)and then
+                      as Constantinople (Constantinopolis) after himself. The
+                      city grew in size and influence, eventually becoming a
+                      beacon of the Silk Road and one of the most important
+                      cities in history.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 2:</span> Gallipoli
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      The Gallipoli peninsula is located in the southern part of
+                      East Thrace, the European part of Turkey, with the Aegean
+                      Sea to the west and the Dardanelles strait to the east.
+                    </p>
+
+                    <p>
+                      Gallipoli is the Italian form of the Greek name Καλλίπολις
+                      (Kallípolis), meaning 'beautiful city', the original name
+                      of the modern town of Gelibolu. In antiquity, the
+                      peninsula was known as the Thracian Chersonese.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger"><span>Day 3:</span> Troy</div>
+                  <div class="accordion-content">
+                    <p>
+                      Troy or Ilium was an ancient city located at Hisarlik in
+                      present-day Turkey, 30 kilometres (19 mi) south-west of
+                      Çanakkale. It is known as the setting for the Greek myth
+                      of the Trojan War.
+                    </p>
+                    <p>
+                      In Ancient Greek literature, Troy is portrayed as a
+                      powerful kingdom of the Heroic Age, a mythic era when
+                      monsters roamed the earth and gods interacted directly
+                      with humans. The city was said to have ruled the Troad
+                      until the Trojan War led to its complete destruction at
+                      the hands of the Greeks. The story of its destruction was
+                      one of the cornerstones of Greek mythology and literature,
+                      featuring prominently in the Iliad and the Odyssey, as
+                      well as numerous other poems and plays. Its legacy played
+                      a large role in Greek society, with many prominent
+                      families claiming descent from those who had fought there.
+                      In the Archaic era, a new city was built at the site where
+                      legendary Troy was believed to have stood. In the
+                      Classical era, this city became a tourist destination,
+                      where visitors would leave offerings to the legendary
+                      heroes.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 4:</span> Kusadasi
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Kuşadası is a large resort town on Turkey's Aegean coast,
+                      and the center of the seaside district of the same name
+                      within Aydın Province. Kuşadası is 95 km (59 mi) south of
+                      İzmir, and about 60 km (37 mi) from Aydın. The
+                      municipality's primary industry is tourism. The mayor of
+                      the district is Oğuzhan Turan.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 5:</span> Fethiye
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Fethiye, formerly Makri (Greek: Μάκρη), is a city and
+                      district of Muğla Province in the Aegean Region of Turkey.
+                      It is one of the prominent tourist destinations in the
+                      Turkish Riviera. In 2019 its population was 162,686.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 6:</span> Oludeniz
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Ölüdeniz is a small neighbourhood and beach resort in the
+                      Fethiye district of Muğla Province, on the Turquoise Coast
+                      of southwestern Turkey, at the conjunction point of the
+                      Aegean and Mediterranean sea. It is located 14 km (9 mi)
+                      to the south of Fethiye, near Mount Babadağ.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 7:</span> Dalyan
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Dalyan is a town in Muğla Province located between the
+                      districts of Marmaris and Fethiye on the south-west coast
+                      of Turkey. The town is an independent municipality, within
+                      the administrative district of Ortaca.
+                    </p>
+                    <p>
+                      Dalyan achieved international fame in 1987 when developers
+                      wanted to build a luxury hotel on the nearby İztuzu Beach,
+                      a breeding ground for the endangered loggerhead sea turtle
+                      species. The incident created major international storm
+                      when David Bellamy championed the cause of
+                      conservationists such as June Haimoff, Peter Günther,
+                      Nergis Yazgan, Lily Venizelos and Keith Corbett. The
+                      development project was temporarily stopped after Prince
+                      Philip called for a moratorium and in 1988 the beach and
+                      its hinterland were declared a protected area, viz.
+                      Köyceğiz-Dalyan Special Environmental Protection Area.
+                    </p>
+                    <p>
+                      Life in Dalyan revolves around the Dalyan Çayı River which
+                      flows past the town. The boats that ply up and down the
+                      river, navigating the maze of reeds, are the preferred
+                      means of transport to local sites.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 8:</span> Cappadocia
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Cappadocia is a historical region in Central Anatolia,
+                      largely in the Nevşehir, Kayseri, Aksaray, Kırşehir, Sivas
+                      and Niğde provinces in Turkey.
+                    </p>
+                    <p>
+                      Since the late 300s BC the name Cappadocia came to be
+                      restricted to the inland province (sometimes called Great
+                      Cappadocia), Upper Cappadocia, which alone will be the
+                      focus of this article. Lower Cappadocia is focused to
+                      elsewhere.
+                    </p>
+                    <p>
+                      According to Herodotus, in the time of the Ionian Revolt
+                      (499 BC), the Cappadocians were reported as occupying a
+                      region from Mount Taurus to the vicinity of the Euxine
+                      (Black Sea). Cappadocia, in this sense, was bounded in the
+                      south by the chain of the Taurus Mountains that separate
+                      it from Cilicia, to the east by the upper Euphrates, to
+                      the north by Pontus, and to the west by Lycaonia and
+                      eastern Galatia.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+
+                <div class="accordion-panel">
+                  <div class="accordion-trigger">
+                    <span>Day 9:</span> Istanbul
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Our trip will end after we say goodbye to our new friends
+                      over breakfast, bid you safe travels, and check-out of the
+                      hotel.
+                    </p>
+                  </div>
+                </div>
+                {/* <!-- item --> */}
+              </div>
+            </div>
+          </div>
+          {/* <!-- block --> */}
+        </div>
+        {/* <!-- content --> */}
+
+        <div class="tour-sidebar">
+          <div class="tour-receipt">
+            <div class="tour-receipt-head">
+              <div class="tour-amount">
+                <span class="tour-amount-old">$119</span> $109
+                <span>/night</span>
+              </div>
+              <div class="tour-discount">-10%</div>
+            </div>
+            <div class="tour-receipt-select">
+              <div class="tour-receipt-select-top">
+                <div class="tour-receipt-select-item">
+                  <div class="tour-receipt-select-icon">
+                    <span class="material-icons-outlined">
+                      calendar_month
+                    </span>
+                  </div>
+                  <div class="tour-receipt-select-content">
+                    <div class="tour-receipt-select-title">07 May</div>
+                    <div class="tour-receipt-select-text">Check in</div>
+                  </div>
+                </div>
+                <div class="tour-receipt-select-item">
+                  <div class="tour-receipt-select-icon">
+                    <span class="material-icons-outlined">
+                      event_available
+                    </span>
+                  </div>
+                  <div class="tour-receipt-select-content">
+                    <div class="tour-receipt-select-title">16 May</div>
+                    <div class="tour-receipt-select-text">Check out</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tour-receipt-select-bottom">
+                <div class="tour-receipt-select-item">
+                  <div class="tour-receipt-select-icon">
+                    <span class="material-icons-outlined">
+                      person_outline
+                    </span>
+                  </div>
+                  <div class="tour-receipt-select-content">
+                    <div class="tour-receipt-select-title">3 Guests</div>
+                    <div class="tour-receipt-select-text">Guests</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tour-receipt-detail">
+              <div class="tour-receipt-detail-item">
+                <div class="tour-receipt-detail-title">$119 x 9 nights</div>
+                <div class="tour-receipt-detail-price">$1,071</div>
+              </div>
+              <div class="tour-receipt-detail-item">
+                <div class="tour-receipt-detail-title">
+                  10% campaign discount
+                </div>
+                <div class="tour-receipt-detail-price">-$175</div>
+              </div>
+              <div class="tour-receipt-detail-item">
+                <div class="tour-receipt-detail-title">Service fee</div>
+                <div class="tour-receipt-detail-price">$0</div>
+              </div>
+              <div class="tour-receipt-detail-item tour-receipt-detail-total">
+                <div class="tour-receipt-detail-title">Total</div>
+                <div class="tour-receipt-detail-price">$1,246</div>
+              </div>
+            </div>
+            <div class="tour-receipt-button">
+              <button class="tour-favorite">
+                <span class="material-icons-outlined"> favorite_border </span>
+              </button>
+              <button class="tour-reserve">Book Now</button>
+            </div>
+          </div>
+        </div>
+        {/* <!-- sidebar --> */}
+      </div>
+    </div>
+  )
+}
+
+export default DestinationDetails
