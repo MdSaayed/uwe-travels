@@ -81,7 +81,7 @@ const Login = () => {
                             </button>
                             <div className="flex justify-center items-center mt-4">
                                 <p className="inline-flex items-center text-gray-700 font-medium text-xs text-center">
-                                    <span className="ml-2">You don't have an account?<Link to="register" className="text-xs ml-2 text-blue-500 font-semibold">Register now &rarr;</Link>
+                                    <span className="ml-2">You don't have an account?<Link to="/register" className="text-xs ml-2 text-blue-500 font-semibold">Register now &rarr;</Link>
                                     </span>
                                 </p>
                             </div>

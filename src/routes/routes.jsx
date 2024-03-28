@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
-import { About, Contact, Login, Register } from "../pages";
+import { About, Contact, Home, Login, Register } from "../pages";
 
 
 
@@ -10,6 +10,10 @@ export const router = createBrowserRouter([
         element: <MainLayout />,
         errorElement: <div>404</div>,
         children: [
+            {
+                path: "/",
+                element: <Home />
+            },
             {
                 path: "/about",
                 element: <About />
