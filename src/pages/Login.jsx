@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { BannerImg, Logo } from "../assets"
 
 const Login = () => {
+
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
         <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">

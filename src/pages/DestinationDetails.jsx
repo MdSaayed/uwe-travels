@@ -2,19 +2,19 @@ import React from 'react'
 
 const DestinationDetails = () => {
   return (
-    <div class="tour container">
-      <div class="tour-head">
-        <div class="tour-head-left">
-          <div class="tour-title">
+    <div className="tour container">
+      <div className="tour-head">
+        <div className="tour-head-left">
+          <div className="tour-title">
             Best of Turkey: Istanbul, Fethiye, Cappadocia
           </div>
-          <div class="tour-overview">
-            <div class="tour-overview-item">
+          <div className="tour-overview">
+            <div className="tour-overview-item">
               Start and end in <span>Istanbul</span>
             </div>
-            <div class="tour-overview-item"><span>9</span> days</div>
-            <div class="tour-overview-item">
-              <span class="material-icons-outlined"> star </span>
+            <div className="tour-overview-item"><span>9</span> days</div>
+            <div className="tour-overview-item">
+              <span className="material-icons-outlined"> star </span>
               <span>4.7</span> (55 reviews)
             </div>
           </div>
@@ -22,15 +22,15 @@ const DestinationDetails = () => {
       </div>
       {/* <!-- tour head --> */}
 
-      <div class="tour-wrapper">
-        <div class="tour-content">
-          <div class="tour-hero">
-            <div class="tour-image"></div>
+      <div className="tour-wrapper">
+        <div className="tour-content">
+          <div className="tour-hero">
+            <div className="tour-image"></div>
           </div>
           {/* <!-- tour hero --> */}
 
-          <div class="tour-content-block">
-            <div class="tour-description">
+          <div className="tour-content-block">
+            <div className="tour-description">
               Discover the ancient wonders of Turkey in our 12 day Best of
               Turkey by Land tour. Embrace the culture and history of Istanbul &
               Gallipoli, ride through the magnificent Aegean Coast and in-land
@@ -43,74 +43,74 @@ const DestinationDetails = () => {
           </div>
           {/* <!-- block --> */}
 
-          <div class="tour-content-block">
-            <div class="tour-content-title">Places You’ll See</div>
-            <div class="tour-places">
-              <div class="swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+          <div className="tour-content-block">
+            <div className="tour-content-title">Places You’ll See</div>
+            <div className="tour-places">
+              <div className="swiper">
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-istanbul.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Istanbul</div>
+                    <div className="swiper-title">Istanbul</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-gallipoli.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Gallipoli</div>
+                    <div className="swiper-title">Gallipoli</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-troy.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Troy</div>
+                    <div className="swiper-title">Troy</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-kusadasi.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Kusadasi</div>
+                    <div className="swiper-title">Kusadasi</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-fethiye.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Fethiye</div>
+                    <div className="swiper-title">Fethiye</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-oludeniz.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Oludeniz</div>
+                    <div className="swiper-title">Oludeniz</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-dalyan.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Dalyan</div>
+                    <div className="swiper-title">Dalyan</div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-image">
+                  <div className="swiper-slide">
+                    <div className="swiper-image">
                       <img src="dist/images/tour-cappadocia.jpeg" alt="image" />
                     </div>
-                    <div class="swiper-title">Cappadocia</div>
+                    <div className="swiper-title">Cappadocia</div>
                   </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
               </div>
             </div>
           </div>
           {/* <!-- block --> */}
 
-          <div class="tour-content-block">
-            <div class="tour-content-title mb-8">Itinerary</div>
-            <div class="tour-itinerary">
-              <div class="accordion">
-                <div class="accordion-panel accordion-introduction active">
-                  <div class="accordion-trigger">Introduction</div>
-                  <div class="accordion-content">
+          <div className="tour-content-block">
+            <div className="tour-content-title mb-8">Itinerary</div>
+            <div className="tour-itinerary">
+              <div className="accordion">
+                <div className="accordion-panel accordion-introduction active">
+                  <div className="accordion-trigger">Introduction</div>
+                  <div className="accordion-content">
                     <p>
                       Start and end in Istanbul! With the Explorer tour Best of
                       Turkey by Land, you have a 9 days tour package taking you
@@ -123,11 +123,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel accordion-start">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel accordion-start">
+                  <div className="accordion-trigger">
                     <span>Day 1:</span> Istanbul
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Istanbul, formerly known as Constantinople, is the largest
                       city in Turkey, serving as the country's economic,
@@ -151,11 +151,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 2:</span> Gallipoli
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       The Gallipoli peninsula is located in the southern part of
                       East Thrace, the European part of Turkey, with the Aegean
@@ -172,9 +172,9 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger"><span>Day 3:</span> Troy</div>
-                  <div class="accordion-content">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger"><span>Day 3:</span> Troy</div>
+                  <div className="accordion-content">
                     <p>
                       Troy or Ilium was an ancient city located at Hisarlik in
                       present-day Turkey, 30 kilometres (19 mi) south-west of
@@ -203,11 +203,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 4:</span> Kusadasi
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Kuşadası is a large resort town on Turkey's Aegean coast,
                       and the center of the seaside district of the same name
@@ -220,11 +220,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 5:</span> Fethiye
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Fethiye, formerly Makri (Greek: Μάκρη), is a city and
                       district of Muğla Province in the Aegean Region of Turkey.
@@ -235,11 +235,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 6:</span> Oludeniz
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Ölüdeniz is a small neighbourhood and beach resort in the
                       Fethiye district of Muğla Province, on the Turquoise Coast
@@ -251,11 +251,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 7:</span> Dalyan
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Dalyan is a town in Muğla Province located between the
                       districts of Marmaris and Fethiye on the south-west coast
@@ -285,11 +285,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 8:</span> Cappadocia
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Cappadocia is a historical region in Central Anatolia,
                       largely in the Nevşehir, Kayseri, Aksaray, Kırşehir, Sivas
@@ -316,11 +316,11 @@ const DestinationDetails = () => {
                 </div>
                 {/* <!-- item --> */}
 
-                <div class="accordion-panel">
-                  <div class="accordion-trigger">
+                <div className="accordion-panel">
+                  <div className="accordion-trigger">
                     <span>Day 9:</span> Istanbul
                   </div>
-                  <div class="accordion-content">
+                  <div className="accordion-content">
                     <p>
                       Our trip will end after we say goodbye to our new friends
                       over breakfast, bid you safe travels, and check-out of the
@@ -336,79 +336,79 @@ const DestinationDetails = () => {
         </div>
         {/* <!-- content --> */}
 
-        <div class="tour-sidebar">
-          <div class="tour-receipt">
-            <div class="tour-receipt-head">
-              <div class="tour-amount">
-                <span class="tour-amount-old">$119</span> $109
+        <div className="tour-sidebar">
+          <div className="tour-receipt">
+            <div className="tour-receipt-head">
+              <div className="tour-amount">
+                <span className="tour-amount-old">$119</span> $109
                 <span>/night</span>
               </div>
-              <div class="tour-discount">-10%</div>
+              <div className="tour-discount">-10%</div>
             </div>
-            <div class="tour-receipt-select">
-              <div class="tour-receipt-select-top">
-                <div class="tour-receipt-select-item">
-                  <div class="tour-receipt-select-icon">
-                    <span class="material-icons-outlined">
+            <div className="tour-receipt-select">
+              <div className="tour-receipt-select-top">
+                <div className="tour-receipt-select-item">
+                  <div className="tour-receipt-select-icon">
+                    <span className="material-icons-outlined">
                       calendar_month
                     </span>
                   </div>
-                  <div class="tour-receipt-select-content">
-                    <div class="tour-receipt-select-title">07 May</div>
-                    <div class="tour-receipt-select-text">Check in</div>
+                  <div className="tour-receipt-select-content">
+                    <div className="tour-receipt-select-title">07 May</div>
+                    <div className="tour-receipt-select-text">Check in</div>
                   </div>
                 </div>
-                <div class="tour-receipt-select-item">
-                  <div class="tour-receipt-select-icon">
-                    <span class="material-icons-outlined">
+                <div className="tour-receipt-select-item">
+                  <div className="tour-receipt-select-icon">
+                    <span className="material-icons-outlined">
                       event_available
                     </span>
                   </div>
-                  <div class="tour-receipt-select-content">
-                    <div class="tour-receipt-select-title">16 May</div>
-                    <div class="tour-receipt-select-text">Check out</div>
+                  <div className="tour-receipt-select-content">
+                    <div className="tour-receipt-select-title">16 May</div>
+                    <div className="tour-receipt-select-text">Check out</div>
                   </div>
                 </div>
               </div>
-              <div class="tour-receipt-select-bottom">
-                <div class="tour-receipt-select-item">
-                  <div class="tour-receipt-select-icon">
-                    <span class="material-icons-outlined">
+              <div className="tour-receipt-select-bottom">
+                <div className="tour-receipt-select-item">
+                  <div className="tour-receipt-select-icon">
+                    <span className="material-icons-outlined">
                       person_outline
                     </span>
                   </div>
-                  <div class="tour-receipt-select-content">
-                    <div class="tour-receipt-select-title">3 Guests</div>
-                    <div class="tour-receipt-select-text">Guests</div>
+                  <div className="tour-receipt-select-content">
+                    <div className="tour-receipt-select-title">3 Guests</div>
+                    <div className="tour-receipt-select-text">Guests</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tour-receipt-detail">
-              <div class="tour-receipt-detail-item">
-                <div class="tour-receipt-detail-title">$119 x 9 nights</div>
-                <div class="tour-receipt-detail-price">$1,071</div>
+            <div className="tour-receipt-detail">
+              <div className="tour-receipt-detail-item">
+                <div className="tour-receipt-detail-title">$119 x 9 nights</div>
+                <div className="tour-receipt-detail-price">$1,071</div>
               </div>
-              <div class="tour-receipt-detail-item">
-                <div class="tour-receipt-detail-title">
+              <div className="tour-receipt-detail-item">
+                <div className="tour-receipt-detail-title">
                   10% campaign discount
                 </div>
-                <div class="tour-receipt-detail-price">-$175</div>
+                <div className="tour-receipt-detail-price">-$175</div>
               </div>
-              <div class="tour-receipt-detail-item">
-                <div class="tour-receipt-detail-title">Service fee</div>
-                <div class="tour-receipt-detail-price">$0</div>
+              <div className="tour-receipt-detail-item">
+                <div className="tour-receipt-detail-title">Service fee</div>
+                <div className="tour-receipt-detail-price">$0</div>
               </div>
-              <div class="tour-receipt-detail-item tour-receipt-detail-total">
-                <div class="tour-receipt-detail-title">Total</div>
-                <div class="tour-receipt-detail-price">$1,246</div>
+              <div className="tour-receipt-detail-item tour-receipt-detail-total">
+                <div className="tour-receipt-detail-title">Total</div>
+                <div className="tour-receipt-detail-price">$1,246</div>
               </div>
             </div>
-            <div class="tour-receipt-button">
-              <button class="tour-favorite">
-                <span class="material-icons-outlined"> favorite_border </span>
+            <div className="tour-receipt-button">
+              <button className="tour-favorite">
+                <span className="material-icons-outlined"> favorite_border </span>
               </button>
-              <button class="tour-reserve">Book Now</button>
+              <button className="tour-reserve">Book Now</button>
             </div>
           </div>
         </div>
