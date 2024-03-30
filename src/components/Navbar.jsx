@@ -47,7 +47,7 @@ const Navbar = () => {
           <ul className={`${isOpen ? "flex items-center gap-6" : "hidden"}`}>
             <ul
               className={
-                "flex shadow-sm flex-col justify-center absolute top-0 left-0 z-10 bg-white items-center h-[100vh] gap-4 w-full sm:w-auto"
+                "flex shadow-sm flex-col justify-center absolute top-0 left-0 z-10 bg-white items-center h-[100vh] gap-4 w-full sm:w-auto z-50"
               }
             >
               <TfiClose
