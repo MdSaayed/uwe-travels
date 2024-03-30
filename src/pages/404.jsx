@@ -11,9 +11,9 @@ const Error = () => {
                  <div style={{ width: '200px', height: '200px' }}>
                     <Lottie animationData={ErrorAnimation}/>
                 </div>
-                <div className="flex items-center justify-center gap-4">
-                    <MdOutlineKeyboardBackspace />
-                     <Link to={"/"}>Back to home</Link>
+                <div className="flex items-center justify-center gap-2">
+                    <MdOutlineKeyboardBackspace className="text-blue-700 font-bold " />
+                     <Link to={"/"} className="text-blue-700 font-bold text-sm ">Back to home</Link>
                 </div>
             </div>
         </div>
