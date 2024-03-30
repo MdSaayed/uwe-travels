@@ -1,19 +1,36 @@
 import { Link, NavLink } from "react-router-dom";
 import { Logo } from "../assets";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TfiClose } from "react-icons/tfi";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+ const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    if (!isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-  };
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+        if (!isOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "unset";
+        }
+    };
+
+  // close menu when screen size will be change
+    useEffect(() => {
+        const handleResize = () => {
+            const newWindowWidth = window.innerWidth;
+            if (newWindowWidth > 768) { 
+                setIsOpen(false);
+                document.body.style.overflow = "unset";
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); 
+
+
 
   return (
     <header className="bg-white relative">
