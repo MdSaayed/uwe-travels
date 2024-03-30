@@ -2,7 +2,7 @@ import React from 'react';
 
 const PaymenthtmlForm = () => {
     return (
-        <div className="">
+        <div className="hidden">
             <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-5">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 ml-20">Paiment</h1>
               </div>
