@@ -10,12 +10,13 @@ import {
   DestinationDetails,
   Home,
 } from "../pages";
+import Error from "../pages/404";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-    errorElement: <div>404</div>,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
