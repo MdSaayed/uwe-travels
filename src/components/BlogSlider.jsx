@@ -75,61 +75,56 @@ const BlogSlider = () => {
     }
   };
 
+  const tourPlaces = [
+  {
+    imageName: tourIstanbul,
+    title: "Istanbul",
+  },
+  {
+    imageName: tourCappadocia,
+    title: "Cappadocia",
+  },
+  {
+    imageName: tourDalyan,
+    title: "Dalyan",
+  },
+  {
+    imageName: tourFethiye,
+    title: "Fethiye",
+  },
+  {
+    imageName: tourTroy,
+    title: "Troy",
+  },
+  {
+    imageName: tourOludeniz,
+    title: "Oludeniz",
+  },
+  {
+    imageName: tourKusadasi,
+    title: "Kusadasi",
+  },
+  {
+    imageName: tourGallipoli,
+    title: "Gallipoli",
+  },
+];
+
+
   return (
     <div className="tour-content-block relative">
       <div className="tour-content-title">Places You’ll See</div>
       <div className="tour-places">
         <div className="swiper">
           <div className="swiper-wrapper">
-            {/* Your slides */}
-            <div className="swiper-slide">
+            {
+              tourPlaces?.map((place,idx)=> (<div key={idx} className="swiper-slide">
               <div className="swiper-image">
-                <img src={tourIstanbul} alt="Istanbul" />
+                <img src={place.imageName} alt="Istanbul" />
               </div>
-              <div className="swiper-title">Istanbul</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourCappadocia} alt="Cappadocia" />
-              </div>
-              <div className="swiper-title">Cappadocia</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourDalyan} alt="Dalyan" />
-              </div>
-              <div className="swiper-title">Dalyan</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourFethiye} alt="Fethiye" />
-              </div>
-              <div className="swiper-title">Fethiye</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourTroy} alt="Fethiye" />
-              </div>
-              <div className="swiper-title">Fethiye</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourOludeniz} alt="Fethiye" />
-              </div>
-              <div className="swiper-title">Fethiye</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourKusadasi} alt="Fethiye" />
-              </div>
-              <div className="swiper-title">Fethiye</div>
-            </div>
-            <div className="swiper-slide">
-              <div className="swiper-image">
-                <img src={tourGallipoli} alt="Fethiye" />
-              </div>
-              <div className="swiper-title">Fethiye</div>
-            </div>
+                <div className="swiper-title">{ place.title}</div>
+            </div>))
+            }
           </div>
         </div>
         <div className="custom-swiper-buttons absolute w-full flex justify-between">
