@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 
@@ -14,10 +14,10 @@ import {
 } from "../assets";
 
 const BlogSlider = () => {
+
   const swiperRef = useRef(null);
 
   useEffect(() => {
-    // Initialize Swiper
     swiperRef.current = new Swiper(".swiper", {
       slidesPerView: 3,
       spaceBetween: 30,

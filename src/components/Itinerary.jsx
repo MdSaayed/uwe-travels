@@ -56,7 +56,7 @@ const Itinerary = () => {
                 className="accordion-trigger"
                 onClick={() => toggleAccordion(index)}
               >
-                <span>{item.day}:</span>
+                <span>{item.day}{ item.day? ":":""}</span>
                 {item.title}
               </div>
               {activePanel === index && (

@@ -7,8 +7,9 @@ import {
   Login,
   Register,
   DestinationCycle,
-  DestinationDetails,
+  
   Home,
+  DestinationDetails,
 } from "../pages";
 import Error from "../pages/404";
 
